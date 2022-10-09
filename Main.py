@@ -24,8 +24,8 @@ class Stack:
       self.top=self.top.next
       temp.next=None
       return temp
-      
-      
+     
+     
   def status(self):
     """
     It prints all the elements of stack.
